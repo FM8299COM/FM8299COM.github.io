@@ -67,7 +67,6 @@ function checkAnswer() {
         let selectedAnswer = _options.querySelector('.selected span').textContent;
         if(selectedAnswer.trim() == HTMLDecode(correctAnswer)) {
             correctScore++;
-        } else {
         }
         checkCount();
     } else {
